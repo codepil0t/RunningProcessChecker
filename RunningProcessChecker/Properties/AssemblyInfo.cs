@@ -5,19 +5,19 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("BlueIrisRunner")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("RunningProcessChecker")]
+[assembly: AssemblyDescription("Checks if a process is running by its name and runs the selected file if not.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BlueIrisRunner")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyProduct("RunningProcessChecker")]
+[assembly: AssemblyCopyright("Copyright © Pavel Fedoruk 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Установка значения False для параметра ComVisible делает типы в этой сборке невидимыми
 // для компонентов COM. Если необходимо обратиться к типу в этой сборке через
 // COM, следует установить атрибут ComVisible в TRUE для этого типа.
-[assembly: ComVisible(false)]
+[assembly: ComVisible(true)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
 [assembly: Guid("16aed176-dba5-460f-9e9e-dd3a395ae85c")]
